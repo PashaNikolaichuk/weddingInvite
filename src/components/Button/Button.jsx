@@ -4,7 +4,7 @@ const Button = () => {
   return (
     <div className={s.content}>
       <button className={s.cssbuttonsIoButton}>
-        Почнемо
+        LET'S GO!
         <div className={s.icon}>
           <svg
             height="24"

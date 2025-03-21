@@ -1,16 +1,40 @@
 import s from "./Home.module.css";
+import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Home = () => {
+  const settings = {
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1, // Кількість зображень, що показуються одночасно
+    slidesToScroll: 1,
+  };
+
   return (
     <section className={s.sectionOne}>
-      <h2 className={s.weddingData}>Дорогі гості!</h2>
-
-      <p>
-        У нашому житті настає щасливі зміни! Ми хочемо, щоб в цей день ви були
-        поряд біля нас найближчі і дорогі для нас люди. Будемо розділяти з вами
-        чудове свято в день нашого весілля, яке відбудеться: 23 СЕРПНЯ 2025 РОКУ
-        З любов'ю, Микола та Валентина.
-      </p>
+      <Slider {...settings}>
+        <div>
+          <img src="../../public/IMAGE 2025-03-20 20:37:58.jpg" alt="image1" />
+        </div>
+        <div>
+          <img src="../../public/IMAGE 2025-03-20 20:37:58.jpg" alt="image2" />
+        </div>
+        <div>
+          <img src="../../public/IMAGE 2025-03-20 20:37:58.jpg" alt="image3" />
+        </div>
+        <div>
+          <img src="../../public/IMAGE 2025-03-20 20:37:58.jpg" alt="image1" />
+        </div>
+        <div>
+          <img src="../../public/IMAGE 2025-03-20 20:37:58.jpg" alt="image2" />
+        </div>
+        <div>
+          <img src="../../public/IMAGE 2025-03-20 20:37:58.jpg" alt="image3" />
+        </div>
+        {/* Додайте інші зображення */}
+      </Slider>
     </section>
   );
 };
