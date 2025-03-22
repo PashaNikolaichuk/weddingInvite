@@ -1,5 +1,4 @@
 .sectionOne {
-  max-width: 320px;
   background-color: rgb(251, 246, 239);
   padding: 50px 10px;
   display: flex;
@@ -52,4 +51,8 @@
     transform: translateZ(0);
     opacity: 1;
   }
+}
+
+.adress {
+  margin-top: 20px;
 }

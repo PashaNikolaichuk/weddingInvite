@@ -11,15 +11,11 @@ const Home = () => {
       <p className={s.paragrap}>for you</p>
       <div className="carousel rounded-box w-64">
         <div className="carousel-item w-full">
-          <img
-            src="../../public/img/img3.jpg"
-            className="w-full"
-            alt="wendding"
-          />
+          <img src="/img/img3.jpg" className="w-full" alt="wendding" />
         </div>
         <div className="carousel-item w-full">
           <img
-            src="../../public/img/img2.jpg"
+            src="/img/img2.jpg"
             className="w-full"
             alt="Tailwind CSS Carousel component"
           />
@@ -32,15 +28,11 @@ const Home = () => {
           />
         </div>
         <div className="carousel-item w-full">
-          <img
-            src="../../public/img/img3.jpg"
-            className="w-full"
-            alt="wendding"
-          />
+          <img src="/img/img3.jpg" className="w-full" alt="wendding" />
         </div>
         <div className="carousel-item w-full">
           <img
-            src="../../public/img/img2.jpg"
+            src="/img/img2.jpg"
             className="w-full"
             alt="Tailwind CSS Carousel component"
           />
@@ -53,6 +45,10 @@ const Home = () => {
           />
         </div>
       </div>
+      <p className={s.adress}>Чекаємо вас за адресу:</p>
+      <a href="https://www.google.com.ua/maps/place/Holuboe+Ozero/@51.3657991,28.8286746,16.9z/data=!4m6!3m5!1s0x472989d0a9e4b311:0xe34b59a6c82ddbe9!8m2!3d51.3658199!4d28.831457!16s%2Fg%2F11h28bj9b9?hl=ru&entry=ttu&g_ep=EgoyMDI1MDMxOS4yIKXMDSoASAFQAw%3D%3D">
+        ПЕРЕЙТИ НА КАРТУ З ЛОКАЦІЄЮ
+      </a>
     </section>
   );
 };
