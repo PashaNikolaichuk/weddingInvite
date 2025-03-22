@@ -5,36 +5,54 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const Home = () => {
-  const settings = {
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1, // Кількість зображень, що показуються одночасно
-    slidesToScroll: 1,
-  };
-
   return (
     <section className={s.sectionOne}>
-      <Slider {...settings}>
-        <div>
-          <img src="../../public/IMAGE 2025-03-20 20:37:58.jpg" alt="image1" />
+      <h2 className={s.titleHome}>Location</h2>
+      <p className={s.paragrap}>for you</p>
+      <div className="carousel rounded-box w-64">
+        <div className="carousel-item w-full">
+          <img
+            src="../../public/img/img3.jpg"
+            className="w-full"
+            alt="wendding"
+          />
         </div>
-        <div>
-          <img src="../../public/IMAGE 2025-03-20 20:37:58.jpg" alt="image2" />
+        <div className="carousel-item w-full">
+          <img
+            src="../../public/img/img2.jpg"
+            className="w-full"
+            alt="Tailwind CSS Carousel component"
+          />
         </div>
-        <div>
-          <img src="../../public/IMAGE 2025-03-20 20:37:58.jpg" alt="image3" />
+        <div className="carousel-item w-full">
+          <img
+            src="/img/img1.jpg"
+            className="w-full"
+            alt="Tailwind CSS Carousel component"
+          />
         </div>
-        <div>
-          <img src="../../public/IMAGE 2025-03-20 20:37:58.jpg" alt="image1" />
+        <div className="carousel-item w-full">
+          <img
+            src="../../public/img/img3.jpg"
+            className="w-full"
+            alt="wendding"
+          />
         </div>
-        <div>
-          <img src="../../public/IMAGE 2025-03-20 20:37:58.jpg" alt="image2" />
+        <div className="carousel-item w-full">
+          <img
+            src="../../public/img/img2.jpg"
+            className="w-full"
+            alt="Tailwind CSS Carousel component"
+          />
         </div>
-        <div>
-          <img src="../../public/IMAGE 2025-03-20 20:37:58.jpg" alt="image3" />
+        <div className="carousel-item w-full">
+          <img
+            src="/img/img1.jpg"
+            className="w-full"
+            alt="Tailwind CSS Carousel component"
+          />
         </div>
-        {/* Додайте інші зображення */}
-      </Slider>
+      </div>
     </section>
   );
 };
