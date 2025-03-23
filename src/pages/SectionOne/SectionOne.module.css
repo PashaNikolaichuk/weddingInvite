@@ -167,3 +167,11 @@
     opacity: 1;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  .titleName,
+  .dataOne,
+  .saveDate {
+    color: #040306 !important;
+  }
+}

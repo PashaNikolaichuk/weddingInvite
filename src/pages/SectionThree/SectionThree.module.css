@@ -81,3 +81,10 @@
     max-width: 1158px;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  .titleHome,
+  .paragrap {
+    color: #040306 !important;
+  }
+}
