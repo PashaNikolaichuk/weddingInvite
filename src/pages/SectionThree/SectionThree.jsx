@@ -6,6 +6,7 @@ const SectionThree = () => {
       <div className={s.container}>
         <h2 className={s.titleHome}>Location</h2>
         <p className={s.paragrap}>for you</p>
+
         <div className="carousel rounded-box w-64">
           <div className="carousel-item w-full">
             <img src="/img/img3.jpg" className="w-full" alt="wendding" />

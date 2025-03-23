@@ -12,7 +12,7 @@
 
 .titleHome {
   font-family: "Dancing Script", cursive;
-  font-size: 30px;
+  font-size: 50px;
   -webkit-animation: slide-in-fwd-center 0.4s
     cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-in-fwd-center 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -27,10 +27,10 @@
   animation: slide-in-fwd-center 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   font-family: "Dancing Script", cursive;
   position: absolute;
-  margin-left: 50px;
-  margin-top: 24px;
+  margin-left: 92px;
+  margin-top: 47px;
   transform: translateX(110px);
-  font-size: 16px;
+  font-size: 20px;
 }
 
 @-webkit-keyframes slide-in-fwd-center {
@@ -64,6 +64,7 @@
 
 .adressLocation {
   padding-bottom: 50px;
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 425px) {
