@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const Main = () => {
   return (
     <div className={s.videoContainer}>
-      <video src="/IMG_2221.MP4" autoPlay loop muted playsinline></video>
+      <video src="/IMG_2221.MP4" autoPlay loop muted playsInline></video>
       <div className={s.text}>
         <h2>Wedding day</h2>
         <h1 className={s.title}>MUKOLA & VALENTINA</h1>
