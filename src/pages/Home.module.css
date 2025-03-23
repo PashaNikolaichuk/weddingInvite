@@ -1,9 +1,13 @@
-.sectionOne {
-  background-color: rgb(251, 246, 239);
-  padding: 50px 10px;
+.container {
+  max-width: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.sectionOne {
+  background-color: rgb(251, 246, 239);
+  padding: 50px 10px;
 }
 
 .titleHome {
