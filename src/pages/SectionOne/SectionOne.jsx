@@ -12,9 +12,9 @@ const SectionOne = () => {
           <p className={s.saveDate}>SAVE THE DATE</p>
         </div>
         <div className={s.titleName}>
-          <p className={s.fadeInLeft}>MUKOLA</p>
+          <p className={s.fadeInLeft}>MYKOLA</p>
           <p className={s.fadeInBck}>&</p>
-          <p className={s.fadeInRight}>VALENTINA</p>
+          <p className={s.fadeInRight}>VALENTYNA</p>
         </div>
       </div>
     </section>
