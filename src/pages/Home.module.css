@@ -28,8 +28,9 @@
   animation: slide-in-fwd-center 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   font-family: "Dancing Script", cursive;
   position: absolute;
-  top: 73px;
-  right: 110px;
+  margin-left: 50px;
+  margin-top: 24px;
+  transform: translateX(110px);
   font-size: 16px;
 }
 
@@ -74,10 +75,10 @@
     max-width: 768px;
   }
 
-  .paragrap {
+  /* .paragrap {
     top: 73px;
     right: 310px;
-  }
+  } */
 }
 
 @media screen and (min-width: 1158px) {
@@ -85,8 +86,8 @@
     max-width: 1158px;
   }
 
-  .paragrap {
+  /* .paragrap {
     top: 73px;
     right: 442px;
-  }
+  } */
 }
